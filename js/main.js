@@ -17,3 +17,7 @@ through regex and logical checks. I discovered how to structure JS into modular
 files and utilize Flexbox for form layout. Initially, styling responsively 
 posed some challenges, but it became much neater once I grasped Flexbox.
 */
+
+document.addEventListener("DOMContentLoaded", function () {
+    initValidation("#myform");
+  });
